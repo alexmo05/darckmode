@@ -2,11 +2,15 @@
   "name": "dark-mode-practica",
   "private": true,
   "type": "module",
+  "homepage": "https://alexmo05.github.io/darckmode/",
+
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-router/node": "^7.1.5",
