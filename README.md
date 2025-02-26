@@ -34,3 +34,16 @@ Puedes ver el diseño de la interfaz en Figma aquí:
  ├── 📜 tailwind.config.js  
  ├── 📜 vite.config.ts  
  ├── 📜 README.md       
+
+
+
+  Como ejecutar la aplicacion
+
+git clone https://github.com/alexmo05/darckmode.git
+
+cd darckmode
+
+npm install
+
+npm run dev
+
